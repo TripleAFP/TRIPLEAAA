@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/summoner.css">
+    <script src="https://kit.fontawesome.com/244a733cbb.js" crossorigin="anonymous"></script>
+    <title>TripleA</title>
+</head>
+<body>
+    <header>
+        <div class="summonerHeader">
+            <div>
+                <img src="media/avatar.jpeg">
+                <div class="avatarElo">
+                    <p class="avatarEloNumber"></p>
+                </div>
+            </div>
+            <span>
+                <h1>Invocador no encontrado</h1>
+                <p></p>
+            </span>
+        </div>
+        <div class="searchBar">
+            <input type="text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <section class="generalInfo">
+        <div class="circleInfo">
+            <div class="circle" id="played"></div>
+            <p>Played games</p>
+        </div>
+        <div class="circleInfo">
+            <div class="circle" id="winrate"></div>
+            <p>Winrate</p>
+        </div>
+        <div class="kdaContainer">
+            <div class="kda">
+                <span>
+                    <div class="kills"></div>
+                    <div>/</div>
+                    <div class="deaths"></div>
+                    <div>/</div>
+                    <div class="assists"></div>
+                </span>
+            </div>
+            <p>Average KDA</p>
+        </div>
+    </section>
+    <section class="matches">
+        <h1>History</h1>
+        <div class="results">
+        </div>
+    </section>
+    <footer>
+        <p>By Álex Ballesteros, Alex Palacios and Adrian Vargas</p>
+    </footer>
+    <script src="getSummonerInfo.js" type="module"></script>
+</body>
+</html>
